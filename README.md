@@ -10,30 +10,30 @@ Use IntelliJ IDEA to create new project
 
 #### Test Encoding Service
 > Send POST request http://localhost:23456/api/encoding (recommend to use Postman)
-with below Json content: 
-Scenerio 1 (): success with Status 200 
-{
-	"shift": 3,
-	"message": "abcd"
-}
-Result:
-{
-    "encodedMessage": "defg"
-}
+> with below Json content: 
+> Scenerio 1 (): success with Status 200 
+> {
+> 	"shift": 3,
+> 	"message": "abcd"
+> }
+> Result:
+> {
+>     "encodedMessage": "defg"
+> }
 
-Scenerio 2: fail with Status 500
-{
-	"shift": 3,
-	"message": "12222"
-}
-Result:
-{
-    "timestamp": "2020-04-08T03:09:30.185+0000",
-    "status": 500,
-    "error": "Internal Server Error",
-    "message": "Cannot encode the message!",
-    "path": "/api/encoding"
-}
+> Scenerio 2: fail with Status 500 (the server do not accept message that contains not Alphabet character )
+> {
+> 	"shift": 3,
+> 	"message": "12222"
+> }
+> Result:
+> {
+>     "timestamp": "2020-04-08T03:09:30.185+0000",
+>     "status": 500,
+>     "error": "Internal Server Error",
+>     "message": "Cannot encode the message!",
+>     "path": "/api/encoding"
+> }
 
 
 #### Open the url on browser to test
