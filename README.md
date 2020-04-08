@@ -1,6 +1,6 @@
 ## How to run Sign Up form
 
-Run the command below in windows command or linux terminal
+Run the commands using windows command or linux terminal
 
 #### Clone project
 > git clone https://github.com/kinhquocnguyen/lightfeather.git
