@@ -45,6 +45,8 @@ Use IntelliJ IDEA to create new project
 > Message is saved into the directory (ENCODED_MESSAGE_SAVED_DIR = "/Users/qnguyen/Download/EncodedMessage"), which is hard-code in EncodingService class. Please change it into appropriate location in your server.
 
 
+
+
 ## How to run Web Component (Sign Up form project)
 
 The project is using Node.js (node-v13.12.0.pkg) and Angular framework version 9.0.7. 
