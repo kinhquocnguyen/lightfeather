@@ -1,6 +1,6 @@
 ## How to run Webserver (Encoding project)
 
-Use IntelliJ IDEA to create new project
+Use IntelliJ IDEA (or Spring Tool Suite) to create new project
 
 #### Clone project
 > git clone https://github.com/kinhquocnguyen/lightfeather.git
@@ -12,7 +12,7 @@ Use IntelliJ IDEA to create new project
 > Send POST request http://localhost:23456/api/encoding (recommend to use Postman)
 > with below Json content: 
 
-> Scenerio 1 (): success with Status 200 
+> Scenerio 1: success with Status 200 
 
 > {
 > 	"shift": 3,
