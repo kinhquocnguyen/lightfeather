@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormArray, FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { OldPasswordValidators, MatchPasswordValidators } from './password.validators';
+import { MatchPasswordValidators } from './password.validators';
 
 @Component({
   selector: 'app-signup-form',
