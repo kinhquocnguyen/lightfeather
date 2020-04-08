@@ -4,6 +4,7 @@ Run the command below in windows command or linux terminal
 
 #### Clone project
 > git clone https://github.com/kinhquocnguyen/lightfeather.git
+
 > cd signup
 
 #### Install npm package
