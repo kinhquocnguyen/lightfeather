@@ -24,7 +24,7 @@ Use IntelliJ IDEA to create new project
 >     "encodedMessage": "defg"
 > }
 
-> Scenerio 2: fail with Status 500 (the server do not accept message that contains not Alphabet character )
+> Scenerio 2: fail with Status 500 (the service does not accept message that contains not Alphabet character )
 
 > {
 > 	"shift": 3,
@@ -41,8 +41,8 @@ Use IntelliJ IDEA to create new project
 > }
 
 
-#### Open the url on browser to test
-http://localhost:4200
+#### Notes for the project
+> Message is saved into the directory (ENCODED_MESSAGE_SAVED_DIR = "/Users/qnguyen/Download/EncodedMessage"), which is hard-code in EncodingService class. Please change it into appropriate location in your server.
 
 
 ## How to run Web Component (Sign Up form project)
